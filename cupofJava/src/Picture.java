@@ -89,8 +89,22 @@ public class Picture extends SimplePicture
   {
      String fileName = FileChooser.pickAFile();
      Picture pictObj = new Picture(fileName);
+     pictObj.changeRed(10);
      pictObj.explore();
   }
-  
+  /**
+   * Method to change the amount of red in each pixel by the specified
+   * factor.
+   * @param factor The red component of each pixel is multiplied by
+  this * amount.
+   */
+  public void changeRed(double factor) {
+    Pixel [] pixels = this.getPixels();
+    for(Pixel curPixel : pixels) { int
+            red = curPixel.getRed();
+      curPixel.setRed((int)(red*factor));
+    }
+  }
+
 } // this } is the end of class Picture, put all new methods before this
  
