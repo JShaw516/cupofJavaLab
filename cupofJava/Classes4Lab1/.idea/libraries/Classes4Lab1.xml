@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Classes4Lab1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Classes4Lab1/javazoom.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Classes4Lab1/jmf.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Classes4Lab1/AVIDemo.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

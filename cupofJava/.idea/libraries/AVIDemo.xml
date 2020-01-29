@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="AVIDemo">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/AVIDemo.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jlayer-1.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jmf.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
