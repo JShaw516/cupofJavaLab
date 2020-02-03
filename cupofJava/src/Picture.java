@@ -104,6 +104,8 @@ public class Picture extends SimplePicture
             red = curPixel.getRed();
       curPixel.setRed((int)(red*factor));
     }
+
+
   }
 
 } // this } is the end of class Picture, put all new methods before this
